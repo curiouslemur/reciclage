@@ -36,5 +36,22 @@
         </div>
       </div>
     </div>
+
+    <!-- Ŝocket management -->
+    <script type="text/javascript">
+        var socket = io();
+        socket.on('message-local', function(cmd){
+          // debugger
+          cb.changeMode("local")
+          cb.command(cmd);
+        })
+        socket.on('message-remote', function(cmd){
+          // debugger
+          cb.changeMode("remote")
+          cb.command(cmd.value);
+          explainGit.generateId = cmd.offset + 3;
+          console.log(explainGit.generateId)
+        })
+    </script>
   </body>
 </html>
