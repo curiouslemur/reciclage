@@ -22,6 +22,7 @@ io.on('connection', function(socket){
     socket.on('disconnect', function(){
         console.log('user disconnected');
     });
+    
     process.stdin.on('data', function(data){
         socket.emit('message-local', data);
     })
