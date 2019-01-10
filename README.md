@@ -9,3 +9,6 @@ An index.js and index.html template for web apps. The libs folder has offline li
 
 ## redmine-gitlab
 scripts used when migrating redmine content to gitlab
+
+## btstraplayout
+a minimal bootstrap layout for web dev
