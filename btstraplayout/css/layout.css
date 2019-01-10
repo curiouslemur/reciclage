@@ -1,0 +1,19 @@
+#leftGrid{	
+	/*background: blue; */
+	height: 100vh; 
+	padding: 10px 10px; 
+	border-right-style: solid;
+}
+
+#grid1{
+	/*background: orange; */
+	height: 50vh; 
+	padding: 10px 10px; 
+	border-bottom-style: solid;
+}
+
+#grid2{
+	/*background: purple; */
+	height: 50vh; 
+	padding: 10px 10px;
+}
